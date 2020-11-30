@@ -1,0 +1,183 @@
+body {
+  font-family: sans-serif;
+}
+.nav-up {
+    height: 20px;
+    padding: 20px;
+    
+}
+
+.nav-up .nav-link {
+    color: rgb(68, 67, 67);
+    font-size: 12px;    
+}
+
+.nav-up .nav-link:hover {
+    color:rgb(134, 126, 126);
+}
+
+
+.main-nav .nav-link {
+    color:rgb(226, 218, 233); 
+
+}
+
+.fa-bars {
+    font-size: 28px;
+    color: rgb(235, 227, 241);
+}
+
+.dropdown-menu {
+    background-color: rgb(235, 227, 241);
+    color:rgb(93, 70, 119);
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+     
+}
+
+.title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+}
+.title::before,
+.title::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 4%;
+}
+
+.title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+.container img{
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    object-fit: fill;
+    
+}
+
+.container {
+  
+  object-fit: contain;
+  
+}
+
+.img-featured {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+.categories {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+.clearence {
+    width: 250px;
+    height: auto;
+    object-fit: contain;
+}
+
+footer {
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: rgb(93, 70, 119);
+    text-decoration: none;
+  }
+
+    
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .art-category a, .first-category {
+    color: rgb(93, 70, 119);
+  }
+
+  .art-category a:hover {
+    color: rgb(42, 163, 163);
+    transition: 0.2s;
+  }
+
+
+  .product-image img {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0, 0.25);
+    
+  }
+
+  .product-top img {
+    width: 100%;
+    height: auto;
+    background: no-repeat center center;
+  }
+
+  
+
+
+
+  
+  
+
+  
+
+
+
+
+
+    
+
+
+
+
+
+
